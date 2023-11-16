@@ -1,0 +1,131 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 47px 0 110px 42px;
+}
+.menu1{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.img-m{
+    width: 534px;
+    height: 466px ;
+    margin-top: 33px;
+    margin-left: 182px;
+    display: inline-block;
+}
+.button-01{
+    width: 124px;
+    height: 51px;
+    border-radius:20px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CB538;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+section{
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: 82px;
+}
+h1{
+    width: 482px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    
+    letter-spacing: 0,6px;
+}
+p{
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0,5px;
+}
+.menu2{
+    margin-top: 22px;
+    color: #6FBF44;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+@media screen  and (max-width:700px) {
+
+    .button-01{ 
+        width: 120px;
+        height: 31px;
+        font-size: 12px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-left: 270px;
+    }
+    .menu1{
+        display: none;
+    }   
+
+    
+    section{     
+        margin: -10% 30% 90% 20%;
+    
+
+    }
+
+    h1{
+        height: 60px;
+        width: 278px;
+        font-size: 30px;
+        text-align: center;
+        font-style: normal;
+        line-height: 30px; 
+        letter-spacing: 3px;
+    }
+    p{
+        height: 165px;
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+ 
+   .menu2{
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin: auto 88px;
+   }
+   .img-m{
+    width: 280px;
+    height: 269px;
+    position: fixed;
+    margin: 65% 20% 20% 20%;
+
+}
+
+
+}
